@@ -1,0 +1,99 @@
+body{
+    background-color: #096483;
+}
+.div1{
+    background-color: white;
+    width: 1600px;
+    height: 1730px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    
+}
+.div2{
+    background-color: #49bb50;
+    width: 1600px;
+    height: 150px;
+    box-sizing: border-box;    
+}
+.div3{
+    background-color: #49bb50;
+    width: 1600px;
+    height: 150px;
+    box-sizing: border-box;
+    position: relative;
+    top: 40%;    
+}
+.img1{
+    margin: 30px auto;
+    margin-left: -700px;
+    position: absolute;
+    
+}
+.img2{
+    margin: 120 auto;
+    margin-left: -50px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 4%;
+    right: 38%;
+    cursor: pointer;
+
+}
+
+a{
+    width: 230px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #105f78;
+    border-style: hidden hidden hidden solid;
+    border-color:black;
+    border-width: 8px;
+    position: relative;
+    top: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    left: -0%;
+    color: white;
+    padding: 12px;
+    padding-right: 3px;    
+}
+a:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 15px 15px rgba(228, 228, 228, 0.822);
+  }
+.a1{
+    width: 230px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #000000;
+    border-style: hidden hidden hidden solid;
+    border-color:black;
+    border-width: 8px;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 12px;
+    padding-right: 30px;
+    left: 85.6%;
+    top: -24.6%;  
+}  
+.a1:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 15px 15px rgba(228, 228, 228, 0.822);
+}
+.a2{
+    width: 230px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #000000;
+    border-style: hidden hidden hidden solid;
+    border-color:black;
+    border-width: 8px;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;  
+}

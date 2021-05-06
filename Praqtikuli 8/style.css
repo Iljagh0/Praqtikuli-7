@@ -1,0 +1,40 @@
+h1{
+    color: red;
+    text-align:left;
+    display: inline;
+}
+.container{
+    
+    width: 800px;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.box{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border: solid green 2px;
+
+}
+@media (max-width: 850px){
+    .container{
+        width: 400px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:space-evenly;
+
+    }
+    .box{
+        background-color: green;
+        border:red solid 2px; 
+        width: 380px;   
+    }
+    h1{
+        color: green;
+    }
+}
